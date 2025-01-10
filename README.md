@@ -1,22 +1,19 @@
-# house_price_prediction
-# Ev Fiyat Tahmin Modeli
-################################################
-# İş Problemi
-# Her bir eve ait özelliklerin ve ev fiyatlarının bulunduğu veriseti kullanılarak,
-# farklı tipteki evlerin fiyatlarına ilişkin bir makine öğrenmesi projesi gerçekleştirilmek istenmektedir.
-################################################
-# Veri Seti Hikayesi
-# Ames, Lowa’daki konut evlerinden oluşan bu veri seti içerisinde 79 açıklayıcı değişken bulunduruyor.
-# Kaggle üzerinde bir yarışması da bulunan projenin veri seti ve yarışma sayfasına aşağıdaki linkten ulaşabilirsiniz.
-# Veri seti bir kaggle yarışmasına ait olduğundan dolayı train ve test olmak üzere iki farklı csv dosyası vardır.
-# Test veri setinde ev fiyatları boş bırakılmış olup, bu değerleri sizin tahmin etmeniz beklenmektedir.
-#
-# Degiskenler
-# 1. Id
-# 2. MSSubClass: Identifies the type of dwelling involved in the sale.
-#         20	1-STORY 1946 & NEWER ALL STYLES
-#         30	1-STORY 1945 & OLDER
-#         40	1-STORY W/FINISHED ATTIC ALL AGES
+# House Price Prediction 
+
+Her bir eve ait özelliklerin ve ev fiyatlarının bulunduğu veriseti kullanılarak,
+farklı tipteki evlerin fiyatlarına ilişkin bir makine öğrenmesi projesi gerçekleştirilmek istenmektedir.
+
+Ames, Lowa’daki konut evlerinden oluşan bu veri seti içerisinde 79 açıklayıcı değişken bulunduruyor.
+Kaggle üzerinde bir yarışması da bulunan projenin veri seti ve yarışma sayfasına aşağıdaki linkten ulaşabilirsiniz.
+Veri seti bir kaggle yarışmasına ait olduğundan dolayı train ve test olmak üzere iki farklı csv dosyası vardır.
+Test veri setinde ev fiyatları boş bırakılmış olup, bu değerleri sizin tahmin etmeniz beklenmektedir.
+
+Degiskenler
+1. Id
+2. MSSubClass: Identifies the type of dwelling involved in the sale.
+         20	1-STORY 1946 & NEWER ALL STYLES
+         30	1-STORY 1945 & OLDER
+         40	1-STORY W/FINISHED ATTIC ALL AGES
 #         45	1-1/2 STORY - UNFINISHED ALL AGES
 #         50	1-1/2 STORY FINISHED ALL AGES
 #         60	2-STORY 1946 & NEWER
